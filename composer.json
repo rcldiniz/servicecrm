@@ -1,0 +1,19 @@
+{
+    "name": "servicecrm/platform",
+    "description": "CRM Profissional para Prestadores de Serviços e Consultores",
+    "type": "wordpress-plugin",
+    "license": "Commercial",
+    "authors": [
+        {
+            "name": "ServiceCRM"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ServiceCRM\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2"
+    }
+}
